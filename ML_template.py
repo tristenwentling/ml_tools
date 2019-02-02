@@ -84,6 +84,6 @@ class Model:
         pass
 
 if __name__ == "__main__":
-    params = {None: None}
-    model = Model(params)
+    params = {'k': 'v'}
+    model = Model(**params)
     model.run()
